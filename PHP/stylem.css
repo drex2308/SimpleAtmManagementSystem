@@ -1,0 +1,322 @@
+@font-face
+{
+font-family: myFancyFont;
+src: url('Kalam-Bold.ttf'),
+url('Kalam-Bold.eot');
+}
+@font-face
+{
+font-family: myFancyFont3;
+src: url('Montserrat-MediumItalic.ttf'),
+url('Montserrat-MediumItalic.eot');
+}
+@font-face
+{
+font-family: myFancyFont2;
+src: url('Handlee-Regular.ttf'),
+url('Handlee-Regular.eot');
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: url("mainj.jpg") ;
+    background-size:cover;
+    background-position:right-top;
+    font-family: 'myFancyFont',times,serif ;
+}
+
+div.w3-container{
+
+  font-family: 'myFancyFont',times,serif;
+  position: absolute;
+    left: 50px;
+    top: 5px;
+    font-size: 60px;
+    color: white;
+}
+
+#m1{
+font-family: 'myFancyFont3',times,serif ;
+  position: absolute;
+  left: 500px;
+  top: 200px;
+  font-size: 10px;
+  color:black;
+}
+
+#m2{
+font-family: 'myFancyFont3',times,serif ;
+  position: absolute;
+  left: 800px;
+  top: 200px;
+  font-size: 10px;
+  color:black;
+}
+
+#m3{
+font-family: 'myFancyFont3',times,serif ;
+  position: absolute;
+  left: 500px;
+  top: 350px;
+  font-size: 10px;
+  color:black;
+}
+
+#m4{
+font-family: 'myFancyFont3',times,serif ;
+  position: absolute;
+  left: 800px;
+  top: 350px;
+  font-size: 10px;
+  color:black;
+}
+
+#m5{
+font-family: 'myFancyFont3',times,serif ;
+  position: absolute;
+  left: 500px;
+  top: 500px;
+  font-size: 10px;
+  color:black;
+}
+
+#m6{
+font-family: 'myFancyFont3',times,serif ;
+  position: absolute;
+  left: 800px;
+  top: 500px;
+  font-size: 10px;
+  color:black;
+}
+
+div.saying{
+    font-family: 'myFancyFont2',times,serif ;
+  position: absolute;
+  top:630px;
+  left:50px;
+  font-size:50px;
+  color:white;
+
+}
+
+div.l1{
+font-family: 'myFancyFont3',times,serif ;
+  position: absolute;
+  top:10px;
+  left:1400px;
+  font-size:7px;
+  color:white;
+}
+
+.login-box{
+    width: 320px;
+    height: 300px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    top: 300px;
+    left: 700px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    font-family: 'myFancyFont3',times,serif ;
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+  }
+.login-box p{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-weight: bold;
+    font-family: 'myFancyFont3',times,serif ;
+}
+.login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+    font-family: 'myFancyFont3',times,serif ;
+}
+.login-box input[type="number"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'myFancyFont3',times,serif ;
+}
+.login-box input[type="text"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'myFancyFont3',times,serif ;
+}
+
+.login-box input[type="submit"]
+{
+  color: #fff !important;
+text-transform: capitalize;
+text-decoration: none;
+background: #ed3330;
+padding: 20px;
+border-radius: 5px;
+display: inline-block;
+border: none;
+transition: all 0.4s ease 0s;
+font-family: 'myFancyFont3',times,serif ;
+}
+.login-box input[type="submit"]:hover
+{
+  background: #434343;
+  letter-spacing: 1px;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+  transition: all 0.4s ease 0s;
+}
+
+.login-box a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+    font-family: 'myFancyFont3',times,serif ;
+}
+.login-box a:hover
+{
+    color: #39dc79;
+    font-family: 'myFancyFont3',times,serif ;
+}
+
+#ba1
+{
+    position: absolute;
+    left: 800px;
+    top: 500px;
+    font-size: 10px;
+    color:black;
+
+}
+
+div.bal{
+  font-family: 'myFancyFont3',times,serif;
+  position: absolute;
+    left: 50px;
+    top: 100px;
+    font-size: 40px;
+    color: white;
+}
+
+th, td {
+    text-align:left;
+padding:8px;
+color:black;
+}
+tr{
+background-color:white;
+}
+table{border-collapse:canvas; width:60%; position:absolute; top:40px; left:50px; background-color:#0000;}
+
+#ba1
+{
+    position: absolute;
+    left: 1400px;
+    top: 110px;
+    font-size: 10px;
+    color:black;
+
+}
+.login1-box{
+    width: 320px;
+    height: 350px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    top: 300px;
+    left: 700px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    font-family: 'myFancyFont3',times,serif ;
+}
+
+.login1-box p{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-weight: bold;
+    font-family: 'myFancyFont3',times,serif ;
+}
+.login1-box input{
+    width: 100%;
+    margin-bottom: 20px;
+    font-family: 'myFancyFont3',times,serif ;
+}
+.login1-box input[type="number"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'myFancyFont3',times,serif ;
+}
+.login1-box input[type="text"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'myFancyFont3',times,serif ;
+}
+
+.login1-box input[type="submit"]
+{
+  color: #fff !important;
+text-transform: capitalize;
+text-decoration: none;
+background: #ed3330;
+padding: 20px;
+border-radius: 5px;
+display: inline-block;
+border: none;
+transition: all 0.4s ease 0s;
+font-family: 'myFancyFont3',times,serif ;
+}
+.login1-box input[type="submit"]:hover
+{
+  background: #434343;
+  letter-spacing: 1px;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+  transition: all 0.4s ease 0s;
+}
+
+.login1-box a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+    font-family: 'myFancyFont3',times,serif ;
+}
+.login1-box a:hover
+{
+    color: #39dc79;
+    font-family: 'myFancyFont3',times,serif ;
+}
